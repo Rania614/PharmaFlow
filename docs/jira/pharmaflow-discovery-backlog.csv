@@ -1,0 +1,32 @@
+Issue Id,Issue Type,Summary,Description,Labels,Labels,Parent Id
+1,Epic,Workspace & tooling setup,"Notion, Jira and GitHub ready for discovery.",pm,,
+2,Epic,Product discovery research,"Investigate the real pharmacy: POS, workflows, problems. No invented findings.",discovery,research,
+3,Epic,Business analysis foundation,"Stakeholders, workflows and requirements based on validated findings.",discovery,ba,
+4,Epic,UX foundations,"UX research notes, design principles, IA inputs. No final UI.",discovery,ux,
+5,Epic,Technical research & architecture,Evaluate stack and POS integration options; record ADRs.,discovery,tech,
+101,Task,Confirm Jira project name for key KAN,Check displayed project name; do NOT rename or change key without approval.,pm,,1
+102,Task,Push initial documentation to GitHub,"Push README, docs/ and .github templates from D:\PharmaFlow to main.",pm,,1
+103,Task,"Link Jira, Notion and GitHub",Add links in each tool; agree branch/commit conventions (KAN-<n>).,pm,,1
+104,Task,Obtain owner consent for research,"Consent for interviews, observation and photos of POS screens; no patient data.",discovery,research,2
+105,Task,Schedule first site visit,Owner interview + POS walkthrough via sister.,discovery,research,2
+106,Story,Conduct owner interview,Use the 10-question Interview Guide. Log findings with source and evidence.,discovery,research,2
+107,Story,Conduct pharmacist / staff interviews,Interview available staff roles; log findings.,discovery,research,2
+108,Story,Walk through the existing POS,"Identify product/vendor, screens, modules; complete Existing System Assessment.",discovery,research,2
+109,Story,Observe counter operations at peak time,Contextual observation; record current-state sales workflow.,discovery,research,2
+110,Story,Observe inventory receiving,Observe a delivery arrival end-to-end.,discovery,research,2
+111,Task,Investigate expiry and batch tracking,"How expiry is tracked today, in or outside POS.",discovery,research,2
+112,Task,Collect manual artifacts,"Sample notebooks, order lists, spreadsheets (anonymised).",discovery,research,2
+113,Task,Measure success-metric baselines,Time low-stock identification and report preparation; spot-count accuracy sample.,discovery,research,2
+114,Task,Synthesize findings and update Assumptions Log,Mark findings Observed/Reported/Validated/Rejected.,discovery,research,2
+115,Story,Write validated problem statement,Based only on Validated findings; review with owner.,discovery,research,2
+116,Task,Confirm stakeholder map and roles,Replace provisional stakeholders with confirmed roles.,discovery,ba,3
+117,Task,Document current-state workflows,"Sales, receiving, stock monitoring, expiry, purchasing, reporting.",discovery,ba,3
+118,Task,Build research-based personas,Replace proto-personas with evidence-based personas.,discovery,ba,3
+119,Task,Draft requirements from validated findings,"Functional, non-functional, business rules, roles, integration.",discovery,ba,3
+120,Task,Run MoSCoW prioritization with owner,Only validated candidates receive priorities.,discovery,ba,3
+121,Task,Capture UX research notes,"Environment, devices, vocabulary, language/RTL needs.",discovery,ux,4
+122,Task,Decide UI language and direction,Arabic RTL / English / both (OQ-12).,discovery,ux,4
+123,Story,Assess POS integration options,"API, CSV export, DB access, reports; obtain sample export.",discovery,tech,5
+124,Task,Finalize technology stack ADRs,Confirm or reject proposed stack items based on requirements.,discovery,tech,5
+125,Task,Define security & data handling baseline,"Data classification, consent, backup approach.",discovery,tech,5
+126,Task,Assess pharmacy hardware and connectivity,"Devices, OS, browser, internet reliability.",discovery,tech,5
